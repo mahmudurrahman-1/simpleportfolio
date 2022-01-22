@@ -1,0 +1,280 @@
+/* 1023-1280px */
+
+@media only screen and (max-width:1280px)
+{
+   .main-h1{
+    width: 100%;   
+}
+   
+    .short-copy,.two-paragraph,.three-paragraph
+    {
+        font-size: 25px;
+        font-size: 300;
+        word-spacing: 4px;
+    }
+    
+     h1,h2
+    {
+        font-size: 30px;
+    }
+    h3,h4
+    {
+        font-size: 28px;
+    }
+}
+
+/* 767-1023px */
+
+@media only screen and (max-width:1023px)
+{
+    .section-6 .last-col,h5
+    {
+        text-align: center;
+    }
+    .main-h1
+    {
+        width: 60%;
+    }
+    .m-center .five-star
+
+    {
+        font-size: 10px;
+    }
+    .get-started,.bt1, .bt2 ,.asci,.five-button,.six-button
+    {
+        font-size:  20px;
+    }
+    html
+    {
+        font-size: 20px;
+    }
+    
+    section
+    {
+        padding: 60px 0;
+    }
+    h5
+    {
+        font-size: 15px;
+    }
+    navigation_links
+    {
+        font-weight: 300;
+    }
+   .short-copy,.two-paragraph,three-paragraph
+    {
+        font-size: 23px;
+        font-size: 400;
+        word-spacing: 3px;
+    }
+    h1,h2
+    {
+        font-size: 30px;
+    }
+    h3,h4
+    {
+        font-size: 24px;
+    }
+}
+
+/* 480-767px */
+
+@media only screen and (max-width:767px)
+{
+    .header-navigations,.header-right-button
+    {
+     font-size: 19px;
+        
+    }
+    .m-center .five-star
+    {
+        margin-left: 15px;
+    }
+    .get-started
+    {
+     font-size: 17px;  
+    }
+    .five-star
+    {
+       height:60px;
+    width: auto;
+    }
+    .main-h1
+    {
+        font-size: 15px;
+        text-align: justify-all;
+    }
+    h2
+    {
+        font-size: 30px;
+    }
+    .second-section .two-column
+    {
+        display: block;
+        content: " ";
+        width: 100%;
+    }
+    .short-copy
+    
+    {
+        font-size: 23px;
+        line-height: 170%;
+    }
+    
+    .two-column .two-paragraph
+    {
+        font-size: 20px;
+        line-height: 160%;
+    }
+    h3
+    {
+        font-weight: 500;
+        font-size: 26px;
+        margin-bottom: 20px;
+    }
+    h4
+    {
+        font-weight: 400;
+        font-size: 23px;
+        margin-bottom: 10px;
+        letter-spacing: none;
+        word-spacing: none;
+
+    }
+    .bt1, .bt2
+    {
+             font-size: 17px;  
+
+    }
+    .three-paragraph
+    {
+        font-size: 19px;
+        font-weight: 400
+    }
+    .three-three .three-col
+    {
+        display: inline-block;
+        width: 100%;
+    }
+
+    .btn
+    {
+        font-size:18px;
+    }
+    .four-four .four-col
+    {
+        display: inline-block;
+        width: 100%;
+    }
+    .ikso .four-col
+    {
+        display: inline-block;
+        width: 100%;
+    }
+     .sec-4
+    {
+        font-weight: 300;
+        letter-spacing: 0px;
+        text-align: justify;
+        font-size: 23px;
+    }
+    
+    
+    .asci
+    {
+        font-size: 25px;
+    }
+    .isci
+    {
+                font-size: 25px;
+
+    }
+    .section_5 .five-button
+    {
+        font-size: 25px;
+        margin-left: 30px;
+    }
+    .last-section .last-col
+    {
+        display: inline-block;
+        width: 100%;
+        font-size: 18px;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    .last-section .six-button
+    {
+        margin-left: 18px;
+        font-size: 20px;
+    }
+    .last-container,h5
+    {
+        text-align: center;
+        letter-spacing: 1px;
+    }
+    h5{
+        margin-bottom: 20px;
+    }
+    .navigation_links
+    {
+        font-size: 23px;
+    }
+    
+}
+
+/* 0-480px */
+@media only screen and (max-width:480px)
+{
+
+  
+    .mediascreen{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .header-navigations
+    {
+    display: none;
+    }
+    .five-star
+    {
+  border-radius: 50%;
+    }
+    .header-right-button
+    {
+    }
+    .m-center .five-star
+    {
+margin-top: 1rem;    }
+    .m-center
+    {
+     text-align: center; 
+    }
+    
+    .main-h1, section
+    {
+        
+        font-size: 15px;
+    }
+    .get-started
+    {
+        font-size: 16px;
+        padding: 0.8rem 3rem;
+    }
+    
+    .last-container,h5
+    {
+        margin-top: 30px;
+        text-align: center;
+        font-size: 14px;
+    }
+    body
+    {
+        max-width: 100%;
+    }
+    .last-navi li a{
+font-size: 1.8rem;
+    }
+
+}
